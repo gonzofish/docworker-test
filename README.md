@@ -1,4 +1,4 @@
-# Doc Worker Test
+# [WIP] Doc Worker Test
 
 This is a test project for generating docs using
 [Doc Worker](https://github.com/gonzofish/docworker).
@@ -10,6 +10,11 @@ This is a test project for generating docs using
   my-projects/> git clone https://github.com/gonzofish/docworker-test
   my-projects/> cd docworker-test
   docworker-test/>
+  ```
+2. Install dependencies (does not currently work since `docworker` isn't
+  published):
+  ```shell
+  docworker-test/> npm i
   ```
 2. Use any of the NPM scripts to generate docs:
   ```shell
