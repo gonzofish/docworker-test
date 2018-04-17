@@ -1,0 +1,16 @@
+{
+  "name": "dw-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "cli": "node node_modules/docworker --dest=built-docs",
+    "cli-custom": "node node_modules/docworker --dest=docscli --config=mydwc.json",
+    "custom-config": "node node_modules/docworker --config=./mydwc.json",
+    "default": "node node_modules/docworker --ignore-config",
+    "with-config": "node node_modules/docworker"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
